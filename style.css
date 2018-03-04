@@ -1,0 +1,138 @@
+/*******************+ Design the bubbles ******************/
+.bubble {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.bubble > .description {
+    margin: 0px 10px;
+    font-size: 22px;
+}
+
+.bubble > .img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble > .img > svg > path {
+    stroke: #555;
+    fill: #555;
+}
+
+/********************** Beginn normal css *********************/
+
+* {
+    box-sizing: border-box;
+    color: #555;
+    font-family: Helvetica, sans-serif;
+}
+
+.background {
+    background: url("./img/mountain.jpeg") no-repeat;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.profile > .description {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+.profile > .image {
+    background: url("./img/profile.png") no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #555;
+}
+
+.profile > .icons {
+    width: 200px;
+}
+
+/******************** Set each bubble correctly *****************/
+#zurich {
+    margin-right: -10px;
+}
+
+#zurich > .img > svg {
+    width: 25px;
+    height: 25px;
+}
+
+#company {
+    margin-right: 10px;
+}
+
+#company > .img > svg {
+    width: 25px;
+    height: 25px;
+}
+
+#position {
+    margin-right: 10px;
+}
+
+#position > .img > svg {
+    width: 25px;
+    height: 25px;
+}
+
+#lecture {
+    margin-right: -10px;
+}
+
+#lecture > .img > svg {
+    width: 25px;
+    height: 25px;
+}
+
+#linkedin {
+    margin-left: -10px;
+}
+
+#linkedin > .img > svg {
+    width: 20px;
+    height: 20px;
+}
+
+#facebook {
+    margin-left: 10px;
+}
+
+#facebook > .img > svg {
+    width: 25px;
+    height: 25px;
+}
+
+#github {
+    margin-left: 10px;
+}
+
+#github > .img > svg {
+    width: 30px;
+    height: 30px;
+}
+
+#medium {
+    margin-left: -10px;
+}
+
+#medium > .img > svg {
+    width: 25px;
+    height: 25px;
+}

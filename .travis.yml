@@ -2,3 +2,4 @@ language: generic
 
 after_success:
     "curl --ftp-create-dirs -T \"{index.html,style.css,img/mountain.jpeg,img/profile.png}\" ftp://$ftp_user:$ftp_pwd@rex16.flatbooster.com/html/robert_schuette/"
+    "curl --ftp-create-dirs -T \"{img/mountain.jpeg,img/profile.png}\" ftp://$ftp_user:$ftp_pwd@rex16.flatbooster.com/html/robert_schuette/img/"

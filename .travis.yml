@@ -1,0 +1,2 @@
+after_success:
+    "curl --ftp-create-dirs -T \"{index.html ,style.css}\" ftp://$ftp_user:$ftp_pwd@rex16.flatbooster.com/html/robert_schuette/"

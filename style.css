@@ -37,6 +37,7 @@
 
 .background {
     background: url("./img/mountain.jpeg") no-repeat;
+    background-size: 100%; background-repeat: no-repeat;
 }
 
 .profile {
@@ -52,7 +53,7 @@
 }
 
 .profile > .image {
-    background: url("./img/profile.png") no-repeat;
+    background: url("./img/profile.jpg") no-repeat;
     background-size: contain;
     width: 200px;
     height: 200px;

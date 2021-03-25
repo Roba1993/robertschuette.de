@@ -127,7 +127,7 @@
                 </div>
                 <div class="description">GitHub</div>
             </a>
-            <a id="medium" class="bubble" onClick="window.scroll(0, 300);">
+            <a id="medium" class="bubble" onClick="scroll_block();">
                 <div class="img">
                     <svg height="512" viewBox="0 0 74 74" width="512" xmlns="http://www.w3.org/2000/svg"><text
                             font-family="ArialMT, Arial" font-size="18" transform="translate(30.995 -1010.544)"
@@ -186,6 +186,10 @@
             </a>
         </div>
     </div>
+    <div id="scroll_button" onClick="scroll_y(300);">
+        <div>Click or Scroll</div>
+        <div class="triangle_down"></div>
+    </div>
     <div id="blog">
     </div>
 
@@ -210,6 +214,16 @@
                 .then(data => p.innerHTML = converter.makeHtml(data))
                 .catch(_ => p.innerHTML = converter.makeHtml("# Post Loading Error"));
         });
+
+        function scroll_y() {
+            var height = screen.height;
+
+            window.scroll({
+                left: 0,
+                top: height,
+                behavior: 'smooth',
+            });
+        }
     </script>
 </body>
 

@@ -67,7 +67,7 @@
     width: 200px;
 }
 
-/********************** Beginn normal css *********************/
+/********************** Blog css *********************/
 #blog {
     display: flex;
     justify-content: center;
@@ -93,6 +93,28 @@
     margin-top: 20px;
     width: fit-content;
 }
+
+#scroll_button {
+    position: absolute;
+    left: calc(50% - 10px);
+    bottom: 25px;
+    cursor: pointer;
+}
+
+.triangle_down {
+    position: relative;
+    top: 0px;
+    left: 22px;
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-right: 0.2em solid #555;
+    border-top: 0.2em solid #555;
+    transform: rotate(135deg);
+    margin-right: 0.5em;
+    margin-left: 1.0em;
+  }
 /******************** Set each bubble correctly *****************/
 #zurich {
     margin-right: -10px;
@@ -159,6 +181,7 @@
 
 #medium {
     margin-left: -10px;
+    cursor: pointer;
 }
 
 #medium > .img > svg {

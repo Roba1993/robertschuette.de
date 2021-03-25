@@ -13,17 +13,16 @@ The idea is to develop an Apple like scroll behavior which brings the user seaml
 So the first step is to create a small scroll logic, to move the elements nicely when a user scrolls, to actually see the blog.
 Furthermore the main page of the site, should be made smaller to give more space to the blog itself. This was archived by the following code
 
-```javascript
-// Need to be done...
-pub function test() {
-    var test = true;
-}
-```
+<iframe
+  src="https://carbon.now.sh/embed/5sOxoxtcdsDkvpkVsNrB"
+  style="width: 327px; height: 240px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
 
 The have something to scroll towards I just some white tiles with rounded corner to present the single blog posts in.
 With this dummy data in place the next step is to format the markdown to renderable html code.
 This is done by the <https://github.com/showdownjs/showdown> library, because they have pre-build `.min.js` files and github icon support :muscle:.
 The only downside here is that the library seems a bit not supported over the last year. But a working markdown formatter will just work, once done...
-In the long run, I need something better, to have code view like the ones, which can be created here <https://carbon.now.sh/>.
+The development Code is inserted over <https://carbon.now.sh/> website which is creating the beatiful code views. If anyone has a small library running in the browser, please let me know!
 
 ### :construction: The second part of the post will follow soon...

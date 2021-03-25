@@ -186,7 +186,7 @@
             </a>
         </div>
     </div>
-    <div id="scroll_button" onClick="scroll_y(300);">
+    <div id="scroll_button" onClick="scroll_block();">
         <div>Click or Scroll</div>
         <div class="triangle_down"></div>
     </div>
@@ -215,7 +215,7 @@
                 .catch(_ => p.innerHTML = converter.makeHtml("# Post Loading Error"));
         });
 
-        function scroll_y() {
+        function scroll_block() {
             var height = window.innerHeight;
 
             window.scroll({

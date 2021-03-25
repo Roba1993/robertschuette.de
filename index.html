@@ -192,6 +192,10 @@
     <script type="text/javascript" src="showdown.min.js"></script>
     <script type="text/javascript">
         var converter = new showdown.Converter();
+        converter.setFlavor('github');
+        converter.setOption("openLinksInNewWindow", true);
+        converter.setOption("emoji", true);
+        converter.setOption("metadata", true);
 
         var posts = ["1_blog_development.md"];
 

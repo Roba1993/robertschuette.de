@@ -15,6 +15,9 @@ Furthermore the main page of the site, should be made smaller to give more space
 
 ```javascript
 // Need to be done...
+pub function test() {
+    var test = true;
+}
 ```
 
 The have something to scroll towards I just some white tiles with rounded corner to present the single blog posts in.

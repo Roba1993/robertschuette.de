@@ -52,6 +52,12 @@ body {
     margin-top: calc((100vh / 2) - 100px);
 }
 
+@media all and (orientation:portrait) {
+    .profile {
+        margin-top: 200px;
+    }
+}
+
 .profile > .description {
     display: flex;
     flex-direction: column;
@@ -82,6 +88,12 @@ body {
     margin-top: calc((100vh / 2) - 40px);
 }
 
+@media all and (orientation:portrait) {
+    #blog {
+        margin-top: 200px;
+    }
+}
+
 #blog > .post {
     background-color: whitesmoke;
     width: calc(60vw);
@@ -89,6 +101,12 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 30px;
+}
+
+@media all and (orientation:portrait) {
+    #blog > .post {
+        width: calc(90vw);
+    }
 }
 
 .code

@@ -193,10 +193,6 @@
     <script type="text/javascript">
         var converter = new showdown.Converter();
 
-        document.querySelectorAll(".post").forEach(e => {
-            e.innerHTML = converter.makeHtml(e.innerHTML);
-        });
-
         var posts = ["1_blog_development.md"];
 
         posts.forEach(p => {

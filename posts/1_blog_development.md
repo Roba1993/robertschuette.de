@@ -15,7 +15,7 @@ Furthermore the main page of the site, should be made smaller to give more space
 
 <iframe
   src="https://carbon.now.sh/embed/5sOxoxtcdsDkvpkVsNrB"
-  style="width: 327px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+  style="width: 327px; height: 200px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
 

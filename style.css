@@ -92,9 +92,8 @@
     border:0; 
     transform: scale(1); 
     overflow:hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    margin-top: 20px;
 }
 /******************** Set each bubble correctly *****************/
 #zurich {

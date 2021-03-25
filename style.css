@@ -96,6 +96,7 @@ body {
     margin: auto;
     margin-top: 20px;
     width: fit-content;
+    width: -moz-fit-content;
 }
 
 #scroll_button {

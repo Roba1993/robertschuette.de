@@ -36,8 +36,8 @@
 }
 
 .background {
-    background: url("./img/mountain.jpeg") no-repeat;
-    background-size: 100%; background-repeat: no-repeat;
+    background: url("./img/mountain.jpeg") repeat #fdfbfc;
+    background-size: 100%; 
 }
 
 .profile {

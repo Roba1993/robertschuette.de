@@ -35,16 +35,13 @@
     font-family: Helvetica, sans-serif;
 }
 
+body {
+    background-color: #fefcfd;
+}
+
 .background {
     background: url("./img/mountain.jpeg") no-repeat;
     background-size: 100%; 
-}
-
-.background-color {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #fdfbfc;
 }
 
 .profile {

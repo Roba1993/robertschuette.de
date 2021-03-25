@@ -87,6 +87,15 @@
     margin-bottom: 30px;
 }
 
+#blog > .post > iframe
+{
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /******************** Set each bubble correctly *****************/
 #zurich {
     margin-right: -10px;

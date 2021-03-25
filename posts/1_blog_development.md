@@ -13,11 +13,11 @@ The idea is to develop an Apple like scroll behavior which brings the user seaml
 So the first step is to create a small scroll logic, to move the elements nicely when a user scrolls, to actually see the blog.
 Furthermore the main page of the site, should be made smaller to give more space to the blog itself. This was archived by the following code
 
-<iframe
+<div class="code"><iframe
   src="https://carbon.now.sh/embed/5sOxoxtcdsDkvpkVsNrB"
   style="width: 327px; height: 200px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
-</iframe>
+</iframe></div>
 
 The have something to scroll towards I just some white tiles with rounded corner to present the single blog posts in.
 With this dummy data in place the next step is to format the markdown to renderable html code.

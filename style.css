@@ -87,11 +87,8 @@
     margin-bottom: 30px;
 }
 
-#blog > .post > iframe
+.code
 {
-    border:0; 
-    transform: scale(1); 
-    overflow:hidden;
     margin: auto;
     margin-top: 20px;
 }

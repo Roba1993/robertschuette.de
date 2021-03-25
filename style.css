@@ -67,6 +67,26 @@
     width: 200px;
 }
 
+/********************** Beginn normal css *********************/
+#blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: calc((100vh / 2) - 40px);
+}
+
+#blog > .post {
+    background-color: whitesmoke;
+    width: calc(60vw);
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
 /******************** Set each bubble correctly *****************/
 #zurich {
     margin-right: -10px;

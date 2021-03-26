@@ -32,7 +32,7 @@ Last step is to actually load the posts from the server. This is done by a simpl
 
 <div class="code"><iframe
   src="https://carbon.now.sh/embed/K25BsMymjt8mFPTfBUB6"
-  style="width: 1010px; height: 430px; border:0; transform: scale(1); overflow:hidden;"
+  style="width: 1010px; height: 450px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe></div>
 

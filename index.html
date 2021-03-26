@@ -224,11 +224,9 @@
         });
 
         function scroll_block() {
-            var height = window.innerHeight;
-
             window.scroll({
                 left: 0,
-                top: height,
+                top: window.innerHeight,
                 behavior: 'smooth',
             });
         }

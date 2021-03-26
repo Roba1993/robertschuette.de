@@ -124,6 +124,12 @@ body {
     cursor: pointer;
 }
 
+@media all and (orientation:portrait) {
+    #scroll_button {
+        display: none;
+    }
+}
+
 .triangle_down {
     position: relative;
     top: 0px;

@@ -41,7 +41,7 @@ Last but not least all this need to get managed and I want to be able to post so
 
 <div class="code"><iframe
   src="https://carbon.now.sh/embed/CMKcBdw7M3tv0FjA4Bsx"
-  style="width: 546px; height: 450px; border:0; transform: scale(1); overflow:hidden;"
+  style="width: 546px; height: 550px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe></div>
 
